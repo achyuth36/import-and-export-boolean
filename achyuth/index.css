@@ -1,0 +1,734 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.card-image {
+  height: 400px;
+  width: 100px;
+}
+
+.button-bgl {
+  color: black;
+  background-color: #e0e0e0;
+  border-radius: 50px;
+}
+
+.button-bgd {
+  color: black;
+  background-color: #ffcce6;
+  border-radius: 50px;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff
+    url("https://res.cloudinary.com/des7uyibo/image/upload/c_scale,h_247,w_310/v1612504010/loading2_b_guay1g.gif")
+    no-repeat center;
+  z-index: 10;
+}
+
+.modal-title {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-family: "Times New Roman";
+
+  font-style: "inherit";
+  color: #01046c;
+  font-weight: bold;
+}
+
+.modal-body {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-style: "inherit";
+  color: #878b8c;
+}
+
+.home-container1 {
+  background-image: url("");
+  background-size: cover;
+}
+
+.custom-button1 {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+
+  color: white;
+  background-color: black;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #acb6e5, #86fce8);
+  height: 100%;
+  background-size: cover;
+}
+
+.bg-container {
+  background-color: #246db6;
+  height: 100vh;
+}
+
+.guess-game-img {
+  width: 100%;
+}
+
+.game-description {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.guess-bg-container {
+  background-color: #246db6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.guess-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.guess-number-image {
+  width: 50px;
+}
+
+.user-input {
+  text-align: center;
+  color: #1f2933;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 500;
+  width: 300px;
+  padding: 10px;
+}
+
+.game-result {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.check-guess {
+  width: 170px;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 15px;
+  background-color: black;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.vr-footer-section-icon-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 15px;
+  background-color: black;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.icon {
+  color: #5a7184;
+  font-size: 18px;
+}
+
+.card1 {
+  background-color: white;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+
+.aboutme-card {
+  text-align: center;
+  background-color: white;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding: 5px;
+}
+
+.side-img0 {
+  height: 100px;
+  width: 80px;
+}
+
+.top-img {
+  height: 160px;
+  width: 80px;
+}
+
+.top-img2 {
+  padding: 10px;
+  height: 20vh;
+}
+
+.skill-img1 {
+  padding: 10px;
+  height: 160px;
+}
+
+.img-third {
+  padding: 10px;
+  height: 360px;
+}
+
+.side-img {
+  padding: 10px;
+  height: 130px;
+}
+
+.home-heading {
+  text-align: center;
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.home-para {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  font-style: "inherit";
+  color: #878b8c;
+}
+
+.skills-heading {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-family: "Times New Roman";
+  padding: 30px;
+  font-style: "inherit";
+  color: #01046c;
+  font-weight: bold;
+}
+
+.skill-image1 {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.skills-heading2 {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.skills-para {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-weight: bold;
+  color: #3e5d64;
+  padding: 15px;
+}
+
+.card-item {
+  background-color: white;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+
+.about-me {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-weight: bold;
+  color: #01046c;
+  font-family: "Roboto";
+  padding: 20px;
+}
+
+.card-name {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 25px;
+  padding: 10px;
+  font-style: "inherit";
+  color: #01046c;
+  font-weight: bold;
+}
+
+.card-image:hover {
+  border-radius: 300px;
+}
+
+.icon:hover {
+  border-radius: 300px;
+  box-shadow: 2px 2px 2px 2px;
+  border: 0px blue;
+}
+
+.portfolio-logo {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4b6cc1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.banner-section-bg-container {
+  background-color: #191a1d;
+  height: 100vh;
+}
+
+.banner-section-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+
+.banner-section-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+.banner-section-image {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.person-name {
+  color: #4b6cc1;
+}
+
+.custom-button {
+  font-family: "Tangerine", serif;
+
+  text-shadow: 4px 4px 4px #aaa;
+
+  color: white;
+  background-color: black;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+}
+
+.about-me-section {
+  background-color: #323f4b;
+}
+
+.about-me-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-me-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.about-me-section-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.about-me-section-image {
+  width: 100%;
+}
+
+.skills-section {
+  background-color: #1f2933;
+}
+
+.skills-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills-card {
+  background-color: #323f4b;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.skills-card-image {
+  width: 64px;
+  height: 64px;
+}
+
+.skills-card-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.projects-section {
+  background-color: #3e4c59;
+}
+
+.projects-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.projects-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.projects-card {
+  background-color: #323f4b;
+  border-radius: 8px;
+}
+
+.projects-card-image {
+  width: 100%;
+}
+
+.projects-card-sub-title {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.projects-card-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.projects-card-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.projects-card-link {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.services-section {
+  background-color: #52606d;
+}
+
+.services-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.services-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.services-card {
+  background-color: #323f4b;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.services-card-image {
+  height: 48px;
+  width: 48px;
+}
+
+.services-card-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.services-card-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.work-done-section {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+  background-size: cover;
+}
+
+.hr-line {
+  background-color: white;
+  width: 60px;
+}
+
+.work-done-card-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.work-done-card-sub-title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.testimonials-section {
+  background-color: #1f2933;
+  padding: 40px;
+}
+
+.testimonials-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.testimonials-section-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.testimonials-card {
+  background-color: #323f4b;
+  padding: 20px;
+}
+
+.testimonials-card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.testimonials-card-description {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.testimonials-card-person-name {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-section {
+  background-color: #0d2436;
+}
+
+.footer-section-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.footer-section-copyright-container {
+  text-align: center;
+  color: #ffffff;
+  background-color: #001c32;
+  padding: 10px;
+}
+
+.footer-section-sub-heading {
+  color: #04f0ff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-section-text {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.icon {
+  color: #5a7184;
+  font-size: 18px;
+}
+
+.todos-bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.delete-icon {
+  padding: 15px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
