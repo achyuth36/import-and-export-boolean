@@ -1,1 +1,0 @@
-const Human = require("./exportBoolean");
